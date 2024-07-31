@@ -1,0 +1,22 @@
+step1. create GitHub account
+
+step2. create one repository
+
+step3. Copy the repository link & clone it in the  folder with the help of visual studio code
+    git clone <link>
+
+step4. make some changes (creating files, adding code).
+
+step5. we have to add the changes.
+    i) git add . (adds all the changes)
+    ii) git add <filename> (adds particular file changes)
+
+step6. we have to commit the staged changes
+    git commit -m "meaning full message" 
+
+step7. we have to push the changes to GitHub Account
+    git push (sends from VS Code -> GitHub Account)
+          
+           FLOW : changes -> add -> commit -> push
+
+step8. git pull ( receives from GitHub Account -> VS Code)
