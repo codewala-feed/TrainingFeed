@@ -6,7 +6,7 @@ INPUTS:
 - science
 - history
 """
-name = input("Enter Name: ")
+name = input("Enter Name: ").upper()
 
 english = float(input("Enter English Score: ")) # 95
 maths = float(input("Enter math score: ")) # 76
@@ -23,6 +23,7 @@ if subject score:
  < 65 ---> poor 
 """
 
+print(f"{name} Report Card")
 if english >= 90:
     print("English: Excellent")
 
@@ -69,3 +70,12 @@ elif (history >= 65) and (history < 75):
     print("history: Average")
 else:
     print("history: Poor")
+# --------------------------------------------------------------------
+if average_score >= 90:
+    overall_performance = "Excellent" 
+    feedback = "Keep up the great work! You're excelling in all subjects."
+
+elif (average_score >= 75) and (average_score < 90):
+    overall_performance = "Good"  
+    feedback = " You're doing well, but there's room for improvement in some areas."
+
