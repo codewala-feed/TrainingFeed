@@ -79,3 +79,10 @@ elif (average_score >= 75) and (average_score < 90):
     overall_performance = "Good"  
     feedback = " You're doing well, but there's room for improvement in some areas."
 
+elif (average_score >= 60) and (average_score < 75):
+    overall_performance = "Average"  
+    feedback = "You have a basic understanding, but consider focusing more on weaker subjects."
+
+else (average_score >= 0) and (average_score < 60):
+    overall_performance = "Needs Improvement"  
+    feedback = "You need to put in more effort and seek help where needed."
