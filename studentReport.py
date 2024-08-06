@@ -45,3 +45,27 @@ elif (maths >= 65) and (maths < 75):
     print("maths: Average")
 else:
     print("maths: Poor")
+
+
+if science >= 90:
+    print("science: Excellent")
+
+elif (science >= 75) and (science < 90):
+    print("science: Good")
+
+elif (science >= 65) and (science < 75):
+    print("science: Average")
+else:
+    print("science: Poor")
+
+
+if history >= 90:
+    print("history: Excellent")
+
+elif (history >= 75) and (history < 90):
+    print("history: Good")
+
+elif (history >= 65) and (history < 75):
+    print("history: Average")
+else:
+    print("history: Poor")
